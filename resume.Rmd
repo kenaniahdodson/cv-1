@@ -47,7 +47,7 @@ Aside
 ================================================================================
 
 
-![logo](https://upload.wikimedia.org/wikipedia/commons/6/65/Asu_university_vert_rgb_maroongold_600.png){width=100%}
+![logo](asu_logo.png){width=100%}
 
 Contact {#contact}
 --------------------------------------------------------------------------------
@@ -81,11 +81,13 @@ build_skill_bars(skills)
 Open Source Contributions {#open-source}
 --------------------------------------------------------------------------------
 
-All projects available at `kenaniahdodson.github.io/`
+All projects available at [My Portfolio](https://kenaniahdodson.github.io/)
 
 
 - **Community Social Vulnerability:** A project analyzing government projects' effects on social vulnerability
+
 - **State Census Regression Analysis:** Analysis and report on custom regression models and variables in various state tracts
+
 - **Capstone:** TBD
 
 
