@@ -55,9 +55,8 @@ Contact {#contact}
 
 
 - <i class="fa fa-envelope"></i> kenaniahdodson@gmail.com
-# - <i class="fa fa-twitter"></i> NicholasStrayer
-- <i class="fa fa-github"></i> https://github.com/kenaniahdodson
-- <i class="fa fa-link"></i> [Website](kenaniahdodson.github.io/)
+- <i class="fa fa-github"></i> [Github](https://github.com/kenaniahdodson)
+- <i class="fa fa-link"></i> [Website](https://kenaniahdodson.github.io/)
 - <i class="fa fa-phone"></i> (910) 922-9279
 - <i class="fa fa-link"></i> [LinkedIn](https://www.linkedin.com/in/kenaniah-dodson-16630a159/)
 
@@ -85,9 +84,15 @@ Open Source Contributions {#open-source}
 All projects available at `kenaniahdodson.github.io/`
 
 
-- `Community Social Vulnerability`: A project analyzing government projects' effects on social vulnerability
-- `State Census Regression Analysis`: Analysis and report on custom regression models and variables in various state tracts
-- `Capstone`: TBD
+- **Community Social Vulnerability:** A project analyzing government projects' effects on social vulnerability
+- **State Census Regression Analysis:** Analysis and report on custom regression models and variables in various state tracts
+- **Capstone:** TBD
+
+
+
+
+
+
 
 
 More info {#more-info}
