@@ -1,6 +1,6 @@
 ---
-title: Nick Strayer's Resume"
-author: Nick Strayer
+title: "Kenaniah Dodson's Resume"
+author: Kenaniah Dodson
 date: "`r Sys.Date()`"
 output:
   pagedown::html_resume:
@@ -47,19 +47,19 @@ Aside
 ================================================================================
 
 
-![logo](beta_dist.png){width=100%}
+![logo](https://upload.wikimedia.org/wikipedia/commons/6/65/Asu_university_vert_rgb_maroongold_600.png){width=100%}
 
 Contact {#contact}
 --------------------------------------------------------------------------------
 
 
 
-- <i class="fa fa-envelope"></i> nick.strayer@gmail.com
-- <i class="fa fa-twitter"></i> NicholasStrayer
-- <i class="fa fa-github"></i> github.com/nstrayer
-- <i class="fa fa-link"></i> [nickstrayer.me](http://nickstrayer.me/)
-- <i class="fa fa-phone"></i> (734) 645-0110
-
+- <i class="fa fa-envelope"></i> kenaniahdodson@gmail.com
+# - <i class="fa fa-twitter"></i> NicholasStrayer
+- <i class="fa fa-github"></i> https://github.com/kenaniahdodson
+- <i class="fa fa-link"></i> [Website](kenaniahdodson.github.io/)
+- <i class="fa fa-phone"></i> (910) 922-9279
+- <i class="fa fa-link"></i> [LinkedIn](https://www.linkedin.com/in/kenaniah-dodson-16630a159/)
 
 
 Language Skills {#skills}
@@ -70,12 +70,9 @@ Language Skills {#skills}
 skills <- tribble(
   ~skill,               ~level,
   "R",                  5,
-  "Javascript (d3.js)", 4.5,
-  "Python",             4,
-  "Bash",               3.5,
-  "SQL",                3,
-  "C++",                3,
-  "AWK",                3
+  "HTML",               3,
+  "CSS",                3,
+  "SQL",                2
 )
 build_skill_bars(skills)
 ```
@@ -85,18 +82,18 @@ build_skill_bars(skills)
 Open Source Contributions {#open-source}
 --------------------------------------------------------------------------------
 
-All projects available at `github.com/nstrayer/<name>`
+All projects available at `kenaniahdodson.github.io/`
 
 
-- `shinysense`: R package to use sensor data in Shiny apps
-- `tuftesque`: Hugo theme (behind LiveFreeOrDichotomize.com)
-- `slid3r`: D3 add-on for fully svg slider inputs
+- `Community Social Vulnerability`: A project analyzing government projects' effects on social vulnerability
+- `State Census Regression Analysis`: Analysis and report on custom regression models and variables in various state tracts
+- `Capstone`: TBD
 
 
 More info {#more-info}
 --------------------------------------------------------------------------------
 
-See full CV at nickstrayer.me/cv for more complete list of positions and publications.
+See full CV at https://kenaniahdodson.github.io/resume/ for more complete list of positions and publications.
 
 
 Disclaimer {#disclaimer}
@@ -114,13 +111,11 @@ Last updated on `r Sys.Date()`.
 Main
 ================================================================================
 
-Nick Strayer {#title}
+Kenaniah Dodson {#title}
 --------------------------------------------------------------------------------
 
 ```{r}
-intro_text <- "I have made [visualizations viewed by hundreds of thousands of people](https://www.nytimes.com/interactive/2016/08/26/us/college-student-migration.html), [sped up query times for 25 terabytes of data by an average of 4,800 times](https://livefreeordichotomize.com/2019/06/04/using_awk_and_r_to_parse_25tb/), and built [packages for R](https://github.com/nstrayer/shinysense) that let you [do magic](http://nickstrayer.me/dataDayTexas/).
-
-Currently searching for a data science position that allows me to build tools using visualization and machine learning to help people explore and understand their data. 
+intro_text <- "Data-driven professional with hands-on experience in statistical analysis, program evaluation, and performance optimization. Proficient in R, Excel, and data visualization tools to uncover trends and support strategic decisions. Background in business law and public policy, with a strong foundation in research design, stakeholder communication, and applied data analytics. Seeking to contribute to evidence-based decision-making in a data analyst role.
 "
 
 
@@ -137,20 +132,26 @@ position_data %>% print_section('education')
 ```
 
 
-
-Selected Positions {data-icon=suitcase}
+Professional Experience {data-icon=suitcase}
 --------------------------------------------------------------------------------
 
 ```{r}
 position_data %>% print_section('positions')
 ```
 
-Selected Writing {data-icon=newspaper}
+
+Projects {data-icon=newspaper}
 --------------------------------------------------------------------------------
 
-
 ```{r}
-position_data %>% print_section('writings')
+position_data %>% print_section('projects')
 ```
 
+
+Policy and Analytic Skills {data-icon=suitcase}
+--------------------------------------------------------------------------------
+
+```{r}
+position_data %>% print_section('skills')
+```
 
